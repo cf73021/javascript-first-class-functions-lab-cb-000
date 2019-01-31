@@ -14,3 +14,6 @@ var tripler = createMultiplier(3);
 function multiplier(a, b){
   return a * b
 }
+
+var doublerWithBind = multiplier(2)
+var triplerWithBind = multiplier(3)
